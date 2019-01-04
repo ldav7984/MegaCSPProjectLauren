@@ -17,6 +17,9 @@
 		AB39913321DFF92D00FCFD0E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39913121DFF92D00FCFD0E /* DataViewController.swift */; };
 		AB39913521DFF94B00FCFD0E /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39913421DFF94B00FCFD0E /* AbstractionViewController.swift */; };
 		AB39913721DFF96900FCFD0E /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39913621DFF96900FCFD0E /* AlgorithmViewController.swift */; };
+		AB39913A21DFFA4E00FCFD0E /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39913821DFFA4E00FCFD0E /* DrawingView.swift */; };
+		AB39913B21DFFA4E00FCFD0E /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39913921DFFA4E00FCFD0E /* ArtCell.swift */; };
+		AB39914021DFFA9700FCFD0E /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB39913F21DFFA9700FCFD0E /* BucketItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		AB39913121DFF92D00FCFD0E /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		AB39913421DFF94B00FCFD0E /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		AB39913621DFF96900FCFD0E /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		AB39913821DFFA4E00FCFD0E /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		AB39913921DFFA4E00FCFD0E /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		AB39913F21DFFA9700FCFD0E /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 		AB39911221DFF53200FCFD0E /* MegaCSPProjectLauren */ = {
 			isa = PBXGroup;
 			children = (
+				AB39913C21DFFA5300FCFD0E /* Model */,
 				AB39912521DFF54900FCFD0E /* Resources */,
 				AB39912721DFF56800FCFD0E /* Controller */,
 				AB39912621DFF56200FCFD0E /* View */,
@@ -84,7 +91,9 @@
 		AB39912621DFF56200FCFD0E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AB39913921DFFA4E00FCFD0E /* ArtCell.swift */,
 				AB39913021DFF92D00FCFD0E /* BucketItemCell.swift */,
+				AB39913821DFFA4E00FCFD0E /* DrawingView.swift */,
 				AB39911721DFF53200FCFD0E /* Main.storyboard */,
 				AB39911C21DFF53C00FCFD0E /* LaunchScreen.storyboard */,
 			);
@@ -133,6 +142,14 @@
 				AB39913621DFF96900FCFD0E /* AlgorithmViewController.swift */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		AB39913C21DFFA5300FCFD0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB39913F21DFFA9700FCFD0E /* BucketItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,11 +225,14 @@
 			files = (
 				AB39912E21DFF90300FCFD0E /* ArtCollectionViewController.swift in Sources */,
 				AB39913221DFF92D00FCFD0E /* BucketItemCell.swift in Sources */,
+				AB39913B21DFFA4E00FCFD0E /* ArtCell.swift in Sources */,
 				AB39912F21DFF90300FCFD0E /* DrawingViewController.swift in Sources */,
+				AB39913A21DFFA4E00FCFD0E /* DrawingView.swift in Sources */,
 				AB39913321DFF92D00FCFD0E /* DataViewController.swift in Sources */,
 				AB39913721DFF96900FCFD0E /* AlgorithmViewController.swift in Sources */,
 				AB39911421DFF53200FCFD0E /* AppDelegate.swift in Sources */,
 				AB39913521DFF94B00FCFD0E /* AbstractionViewController.swift in Sources */,
+				AB39914021DFFA9700FCFD0E /* BucketItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
