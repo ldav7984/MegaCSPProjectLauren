@@ -24,6 +24,9 @@
                                 <state key="normal" title="Data">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="aDN-9s-n8B" kind="show" id="Vgd-ui-8Bt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Eb-cX-y8q">
                                 <rect key="frame" x="93" y="211" width="188" height="120"/>
@@ -32,6 +35,9 @@
                                 <state key="normal" title="Creativity">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="6wd-lR-C12" kind="show" id="MGF-oq-wIQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efq-yP-MDs">
                                 <rect key="frame" x="93" y="361" width="188" height="120"/>
@@ -40,6 +46,9 @@
                                 <state key="normal" title="Algorithm">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="7gD-p7-ohP" kind="show" id="icP-tD-AKU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtK-1t-hcB">
                                 <rect key="frame" x="93" y="507" width="188" height="120"/>
@@ -48,6 +57,9 @@
                                 <state key="normal" title="Abstraction">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="9kJ-gN-GY3" kind="show" id="hM6-5t-DxK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="204"/>
+            <point key="canvasLocation" x="839" y="-127"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="T2h-pF-SNC">
@@ -140,6 +152,9 @@
                                 <rect key="frame" x="135" y="554" width="105" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Screen"/>
+                                <connections>
+                                    <segue destination="Qyb-gt-2S3" kind="show" id="np9-9q-L1b"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0aZ-Yh-yKT" customClass="DrawingView" customModule="DrawingProjectLauren" customModuleProvider="target">
                                 <rect key="frame" x="33" y="43" width="310" height="483"/>
@@ -153,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JJP-Nr-VVR" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1679" y="-493"/>
+            <point key="canvasLocation" x="1634" y="-833"/>
         </scene>
         <!--Art Collection View Controller-->
         <scene sceneID="BgS-Yc-KYC">
@@ -207,15 +222,19 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c0r-fZ-HTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2359" y="-493"/>
+            <point key="canvasLocation" x="2353" y="-833"/>
         </scene>
         <!--Abstraction View Controller-->
         <scene sceneID="aZj-2y-gFm">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="9kJ-gN-GY3" customClass="AbstractionViewController" customModule="AbstractionLauren" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="9kJ-gN-GY3" customClass="AbstractionViewController" customModule="AbstractionLauren" customModuleProvider="target" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="6hq-WS-FJA" kind="show" id="Mnf-Kv-bXI"/>
+                    </connections>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZGr-QJ-dmW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4703" y="-515"/>
+            <point key="canvasLocation" x="1562" y="296"/>
         </scene>
         <!--Swift Code-->
         <scene sceneID="khm-8c-kgT">
@@ -437,6 +456,6 @@
         <image name="AbstrByteCode" width="237" height="128"/>
         <image name="AbstrLogicalGate" width="347" height="297"/>
         <image name="AbstrSwiftCode" width="344" height="340"/>
-        <image name="Image" width="16" height="16"/>
+        <image name="Image" width="1248" height="1244"/>
     </resources>
 </document>
